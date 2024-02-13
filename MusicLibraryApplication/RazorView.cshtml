@@ -1,0 +1,34 @@
+@page
+@model List<MusicTrack>
+@* using the List for the view *@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Music Library</title>
+</head>
+
+<body>
+    <h1>Music Library</h1>
+
+    <table>
+        <tr>
+            <th>Artist</th>
+            <th>Title</th>
+            <th>Genre</th>
+            <th>Duration</th>
+        </tr>
+        @foreach (var track in Model)
+        {
+            <tr>
+                <td>@track.Artist</td>
+                <td>@track.Title</td>
+                <td>@track.Genre</td>
+                <td>@track.Duration</td>
+            </tr>
+        }
+    </table>
+</body>
+
+</html>

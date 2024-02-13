@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "MusicLibraryApplication/1.0.0": {
+        "runtime": {
+          "MusicLibraryApplication.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MusicLibraryApplication/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
